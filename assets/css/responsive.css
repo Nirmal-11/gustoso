@@ -1,0 +1,193 @@
+@media screen and (max-width: 1200px) {
+    .breakfast-menu {
+        margin-left: 15px;
+    }
+
+    .tasty-pancakes {
+        padding-left: 50px;
+    }
+
+    .ready-in {
+        right: 75px;
+    }
+
+    .breakfast-menu .menu-wrap {
+        height: 569px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .chef-imgs {
+        margin-top: 50px;
+    }
+
+    .tasty-pancakes-rating {
+        order: 2;
+        overflow: hidden;
+    }
+
+    .tasty-pancakes-row {
+        order: 0;
+    }
+
+    .tasty-pancakes {
+        padding-left: 0;
+    }
+
+    .ready-in {
+        right: 0;
+    }
+
+    .steps {
+        margin-bottom: 50px;
+    }
+
+    .breakfast .breakfast-left {
+        padding-left: 0;
+    }
+
+    .breakfast-menu {
+        margin: 50px auto;
+    }
+
+    .sandwich-title {
+        margin-bottom: 50px;
+    }
+
+    .sandwich .sandwich-recipe {
+        padding-left: 0;
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar li:first-child a {
+        padding-left: 20px;
+    }
+
+    #header .social-icons {
+        padding-right: 28px;
+        padding-bottom: 3px;
+    }
+
+    .tasty-pancakes-rating img {
+        width: 100%;
+    }
+
+    .footer_logo {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .footer_nav {
+        padding-top: 50px;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .sandwich-recipe .sandwich-step {
+        width: 160px;
+        height: 140px;
+        padding: 15px;
+    }
+
+    .ready-time {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .shadow {
+        display: none;
+    }
+
+    .shadow2,
+    .bottom,
+    .corner {
+        display: none;
+    }
+
+    .breakfast-menu .menu-wrap,
+    .breakfast-menu {
+        width: 100%;
+    }
+
+    .breakfast-menu .menu-wrap {
+        outline: 1px dashed #9e9c93;
+        outline-offset: -10px;
+    }
+
+    .breakfast-menu .menu-wrap .dashed {
+        border: none;
+    }
+
+    .sandwich-recipe .sandwich-instruction {
+        display: flex;
+        margin-bottom: -170px;
+        position: relative;
+    }
+
+    .chef-name {
+        flex-direction: column;
+    }
+
+    .chef-name img {
+        margin: 20px 0;
+    }
+
+    .ready-in {
+        top: -88px;
+    }
+
+    .sandwich-recipe .sandwich-step {
+        height: auto;
+    }
+
+    .pretzel,
+    .breakfast-menu img {
+        display: none;
+    }
+
+    .breakfast-menu,
+    .breakfast-menu .menu-wrap .dashed,
+    .breakfast-menu .menu-wrap {
+        height: 100%;
+    }
+
+    .breakfast-menu .read-btn {
+        margin-bottom: 30px;
+    }
+
+    .footer .footer-ul {
+        flex-direction: column;
+    }
+
+    .footer .footer-ul li::after {
+        display: none
+    }
+
+    #header .social-icons {
+        display: none;
+    }
+
+    .breakfast-menu h3 {
+        margin-top: 40px;
+    }
+
+    #hero h1 {
+        font-size: 55px;
+    }
+
+    #hero h2 {
+        font-size: 20px;
+    }
+}
